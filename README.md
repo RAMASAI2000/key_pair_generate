@@ -22,7 +22,6 @@ D:\terraform key_pair
 ```hcl
  D:\terraform key_pair\<key_pair_name>
 ```
-
 <br>
 
 Enter passphrase (empty for no passphrase): ***Please click on the enter button***
@@ -32,6 +31,14 @@ Enter same passphrase again: ***Again please click on the enter button***
 
 <br>
 
+### 1.2 Verify the generated public key and private key
+In the previous step, we have generated the key-pair which we are going to use for provisioning the EC2 instance. But let us take a look at the keys and how it looks.
+If you remember in the previous step we have generated the keys at path /home/rahul/Jhooq/keys/aws we should see two key files over there -
+
+1. **aws_key (private key)**
+2. **aws_key.pub (public key)**
+
+![Screenshot (125)](https://github.com/user-attachments/assets/20219cd0-c58c-443c-b4f5-b65567c7a797)
 
 
 
